@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30b107f04d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hello...! I'm <br><span> Roshan Tanpure</span></h1>
+                <p>"I'm a full-stack developer with expertise in frontend and backend technologies.</p>
+                <p> I specialize in crafting user-friendly interfaces with HTML, CSS, and JavaScript</p> 
+                <p> while also building scalable server-side solutions to power seamless web applications."</p>
+            </div>
+                
+        </div>
+    </div>
+    <!--------------About--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://www.transparentpng.com/thumb/boy/MQZkNR-cartoon-charactersthe-boss-baby-pngu.png" alt="Cartoon character, unhappy boy clipart hd download @transparentpng.com">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> My Self  <span>Roshan popat tanpure</span><br> I'm from Karajat Currently I'm living in Pune.I am Currently Pursuing BE in Computer and Engineering. with a strong focus on becoming a proficient full-stack developer. I thrive on creating seamless web experiences, from designing captivating user interfaces to architecting robust server-side solutions. With a blend of technical skills and a dedication to innovation, I'm eager to contribute to the world of web development and technology." <br> </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links "onclick="opentab('education')">Education</p>
+                            <p class="tab-links "onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents active-tab"id="skills">
+                            <ul>
+                                <li><span>java</span><br> </li>
+                                <li><span>HTML</span><br> </li>
+                                <li><span>MYSQL</span><br> </li>
+                                <li><span>CSS</span><br></li>
+                                <li><span>JAVASCRIPT</span><br> </li>
+                                <li><span>REACT</span><br></li>
+                                
+                                
+                                <li><span>Web Development</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"id="experience">
+                            <ul>
+                                <li><span>FRESHER</span><br> Current Student looking to join the workforce to gain in real-world Experience. 
+                                                        Ability to complete task's on time in both individual and team and grow with your company. 
+                                                        Ready to make an immediate contribution to your organization.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"id="education">
+                            <ul>
+                                <li><span> 2021 - 2025 </span><br> B.E in Comp from SPPU University Pune.</li>
+                                <li><span> 2020 - 2021 </span><br> H.S.C ( Maharashtra State Board of Secondary and Higher Secondary Education Aurangaba )<br> completed With 87.17%</li>
+                                <li><span> 2018 - 2019 </span><br> S.S.C ( Maharashtra State Board of Secondary and Higher Secondary Education Pune )<br> completed With 80.60%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"id="hobbies">
+                            <ul>
+                                <li><span> Playing Games </span><br>Football,Cricket,Volleyball</li>
+                                <li><span>Reading Books</span><br>The Conjuring by Ed & lorraine warren <br>  </li>
+                                <li><span>Watching Movies</span><br>I love to watch Marvel Movies</li>
+                                <li><span>Listening Music</span><br>English, Marathi & Hindi</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------services---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> Services</h1>
+            <div class="services-list">
+                    <div >
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Problem solving</h2>
+                        <p>"Skilled in Java, adept at problem-solving. Known for breaking down complex issues, crafting efficient solutions, and optimizing code. Proficient in data structures, algorithms, and debugging."</p>
+                           
+                    </div>
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2> Fronted Developer</h2>
+                        <p>"I'm a front-end developer specializing in crafting visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I create interactive digital experiences that work seamlessly across devices."</p>
+                           
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-microchip"></i>
+                        <h2> Backend Developer </h2>
+                        <p>"I'm a backend developer skilled in Node.js, Express, and MongoDB, specializing in creating the server-side infrastructure that drives web applications. My expertise ensures efficient data handling, secure APIs, and seamless application functionality."</p>
+                            
+                    </div>
+                   
+                    <div>
+                        <i class="fa-solid fa-code-fork"></i>
+                        <h2>Full stack /MERN stack Developer</h2>
+                        <p>"I'm a MERN stack developer proficient in MongoDB, Express, React, and Node.js. I specialize in designing and developing end-to-end web applications, combining powerful server-side capabilities with engaging user interfaces to deliver comprehensive digital solutions."</p>
+                            <a href="#"></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Portfolio   my work------------------->
+    <!-- <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work
+                <div class="work-list">
+                    <div>
+                        <img src="images/passwordapp.png" >
+                        <a href="https://roshan3517.github.io/Whether-App/"></a>
+                    </div>
+                    <div>
+                        <img src="images/wheatherapp.png" alt="">
+                     
+                    </div>
+                    <div>
+                        <img src="images/todoapp.png" alt="">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   -->
+    <!----------------Contact---------------->
+    <div id="contact">
+        <div class="Container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>tanpureroshan3517@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-837-899-3517</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/roshan-tanpure-63b97b234/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/roshan_tanpure_3517/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://leetcode.com/t_roshan/"><img src="images/leetcode_logo.png" alt=""></a>
+                        <a href="https://github.com/roshan3517"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 <a href="https://drive.google.com/file/d/1VmiApIL0926D_OTIX3AyTO1pQ3TPmyjZ/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                
+                 <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 by <span>Roshan Tanpure</span>  <i class="fa-solid fa-face-smile"></i>.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw08yiw2OHaIl8hupZVL8tmWnmmM69-TyhQ2gMeV7L1RG_J9FFPGpKTd3J6S6xrvicEeQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = " Your Message is sent..! The Owner Will be in touch. See you Soon.."
+                setTimeout(function(){
+                    msg.innerHTML=" "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
